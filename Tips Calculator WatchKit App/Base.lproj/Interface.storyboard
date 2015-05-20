@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Tips_Calculator_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label alignment="center" text="Bill Amount" id="plG-vc-l25"/>
+                        <group width="1" height="26" alignment="left" id="LBx-TA-4kh">
+                            <items>
+                                <button width="43" height="23" alignment="left" title="1" id="JYv-99-qgs">
+                                    <color key="titleColor" red="0.12785073550000001" green="0.74167455810000005" blue="0.082231638659999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </button>
+                                <button width="43" height="23" alignment="left" title="2" id="gTM-o8-QW9">
+                                    <color key="titleColor" red="0.12785073550000001" green="0.74167455810000005" blue="0.082231638659999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </button>
+                                <button width="43" height="23" alignment="left" title="3" id="mvV-Pl-3JX">
+                                    <color key="titleColor" red="0.12785073550000001" green="0.74167455810000005" blue="0.082231638659999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="26" alignment="left" id="ya2-qQ-dS0">
+                            <items>
+                                <button width="43" height="23" alignment="left" title="4" id="SmT-XP-ffF">
+                                    <color key="titleColor" red="0.12785073550000001" green="0.74167455810000005" blue="0.082231638659999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </button>
+                                <button width="43" height="23" alignment="left" title="5" id="Zln-C2-Sbv">
+                                    <color key="titleColor" red="0.12785073550000001" green="0.74167455810000005" blue="0.082231638659999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </button>
+                                <button width="43" height="23" alignment="left" title="6" id="j7P-X8-Jyi">
+                                    <color key="titleColor" red="0.12785073550000001" green="0.74167455810000005" blue="0.082231638659999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="26" alignment="left" id="BgK-RX-2O4">
+                            <items>
+                                <button width="43" height="23" alignment="left" title="7" id="Y7z-wj-Jmd">
+                                    <color key="titleColor" red="0.12785073550000001" green="0.74167455810000005" blue="0.082231638659999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </button>
+                                <button width="43" height="23" alignment="left" title="8" id="Ne9-52-wTa">
+                                    <color key="titleColor" red="0.12785073550000001" green="0.74167455810000005" blue="0.082231638659999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </button>
+                                <button width="43" height="23" alignment="left" title="9" id="rvE-mD-OQN">
+                                    <color key="titleColor" red="0.12785073550000001" green="0.74167455810000005" blue="0.082231638659999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="26" alignment="left" id="loD-HP-trJ">
+                            <items>
+                                <button width="43" height="23" alignment="left" title="." id="iUQ-c9-6am"/>
+                                <button width="43" height="23" alignment="left" title="0" id="zzE-8I-uOo">
+                                    <color key="titleColor" red="0.12785073550000001" green="0.74167455810000005" blue="0.082231638659999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </button>
+                                <button width="43" height="23" alignment="left" title="Done" id="99N-Cx-AJf">
+                                    <color key="titleColor" red="1" green="0.14271391729999999" blue="0.045110686339999997" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" type="system" pointSize="9"/>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="459" y="278"/>
+        </scene>
+    </scenes>
+</document>
